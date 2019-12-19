@@ -8,3 +8,5 @@ GET method will return all of the employees from the database.
 POST method will create a new employee everytime it is called.
 
 The application makes use of the H2 database which is an in-memory database engine.
+
+The project can be built using Maven build tool.
