@@ -10,10 +10,8 @@ import java.net.URI
 
 @RestController
 @RequestMapping("/employees")
-class EmployeeController {
+class EmployeeController(val employeeService: EmployeeService) {
 
-    @Autowired
-    lateinit var employeeService:EmployeeService
 
     @GetMapping("/", produces = arrayOf("application/json"))
     fun getEAllEmployees() :List<Employee> {

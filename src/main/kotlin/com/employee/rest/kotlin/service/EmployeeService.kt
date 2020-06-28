@@ -4,5 +4,5 @@ import com.employee.rest.kotlin.model.Employee
 
 interface EmployeeService {
      public fun getAllEmployee() : MutableList<Employee>
-     public fun createEmployee(employee: Employee)
+     public fun createEmployee(employee: Employee) : Employee
  }
