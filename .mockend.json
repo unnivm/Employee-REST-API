@@ -1,0 +1,8 @@
+{
+  "employees": {
+    "name": "string",
+    "address": "string",
+    "age": "int",
+    "zip": "int",
+    "country": "string"
+  }}
